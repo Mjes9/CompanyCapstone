@@ -5,7 +5,14 @@ body {
     color: rgb(62, 18, 101);
     font-size: 20px;
 }
-a {
+p > a {
+    font-family: "Indie Flower", cursive;
+    color: rgb(62, 18, 101);
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+div > a {
     color: lightblue;
     text-decoration: none;
     font-size: 30px;
