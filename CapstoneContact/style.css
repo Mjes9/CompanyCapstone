@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+i {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 100px;
+    color: gray;
+    opacity: 0%;
+}
+body {
+    font-family: "Indie Flower", cursive;
+    background-color: white;
+    color: rgb(62, 18, 101);
+    font-size: 20px;
+    text-align: center;
+}
+i {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 20px;
+}

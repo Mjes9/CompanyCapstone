@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* Header/Nav Bar */
+section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(62, 18, 101);
+    color: lightblue;
+    border-radius: 0px;
+    font-family: "Indie Flower", cursive;
+    top: 0;
+    position: sticky;
+}
+#title {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+i {
+    margin: 0 10px;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(62, 18, 101);
+}
+/* Links */
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 10px;
+    margin-right: 40px;
+}
+
+/* Contact Info */
+#contact {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+}
+h4 {
+    margin: 0;
+    font-size: 30px;
+}
+a {
+    font-size: 30px;
+    color: white;
+}
+
+/* Services/About Me */
+
+#services, #aboutme {
+    display: flex;
+    color: white;
+}
+
+/* Main Page */
+
+section:nth-of-type(2) {
+    font-family: "Indie Flower", cursive;
+    color: lightblue;
+}
+h1 {
+    font-size: 75px;
+    text-align: center;
+    color: lightblue;
+    margin-top: 200px;
+    background-color: rgba(128, 128, 128, 0.557);
+}
+h2 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.557);
+}
+
+body{
+    margin: 0;
+    background-image: url("everdrop-gmbh-DHqFN-gs2TQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
